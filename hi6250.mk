@@ -14,8 +14,6 @@
 # limitations under the License.
 #
 
-$(call inherit-product, vendor/huawei/kirin970-common/kirin970-common-vendor.mk)
-
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
@@ -38,7 +36,7 @@ PRODUCT_PACKAGES += \
 
 # Device init scripts
 PRODUCT_PACKAGES += \
-    init.kirin970.rc
+    init.hi6250.rc
 
 # Display
 PRODUCT_PACKAGES += \
@@ -50,7 +48,7 @@ PRODUCT_COPY_FILES += \
 
 # LineageHw
 PRODUCT_PACKAGES += \
-    lineage.touch@1.0-service.kirin970
+    lineage.touch@1.0-service.hi6250
 
 # NFC
 PRODUCT_PACKAGES += \

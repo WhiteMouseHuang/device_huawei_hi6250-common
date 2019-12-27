@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018 The LineageOS Project
+# Copyright (C) 2019 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,11 +18,11 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-LOCAL_SRC_FILES := init_kirin970.cpp
+LOCAL_SRC_FILES := init_hi6250.cpp
 
 LOCAL_C_INCLUDES := system/core/init
 
-LOCAL_MODULE := libinit_kirin970
+LOCAL_MODULE := libinit_hi6250
 LOCAL_MODULE_TAGS := optional
 
 LOCAL_STATIC_LIBRARIES := libbase
