@@ -78,3 +78,6 @@ PRODUCT_PACKAGES += \
 # Trust HAL
 PRODUCT_PACKAGES += \
     lineage.trust@1.0-service
+
+# Missing dependenices
+ALLOW_MISSING_DEPENDENCIES := true
