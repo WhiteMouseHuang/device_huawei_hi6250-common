@@ -46,10 +46,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/fingerprint.kl:system/usr/keylayout/fingerprint.kl
 
-# LineageHw
-PRODUCT_PACKAGES += \
-    lineage.touch@1.0-service.hi6250
-
 # NFC
 PRODUCT_PACKAGES += \
     NfcNci \
@@ -74,10 +70,6 @@ PRODUCT_BOOT_JARS += \
 # Recovery
 PRODUCT_PACKAGES += \
     resize2fs_static
-
-# Trust HAL
-PRODUCT_PACKAGES += \
-    lineage.trust@1.0-service
 
 # Missing dependenices
 ALLOW_MISSING_DEPENDENCIES := true
