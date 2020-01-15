@@ -32,16 +32,6 @@ TARGET_2ND_CPU_VARIANT := cortex-a53
 # Bootloader
 TARGET_NO_BOOTLOADER := true
 
-# Kernel
-BOARD_KERNEL_IMAGE_NAME := Image
-TARGET_NO_KERNEL := false
-TARGET_PREBUILT_KERNEL := /dev/null
-
-ifneq ($(TARGET_AOSP_BASED),)
-	PRODUCT_COPY_FILES += \
-			              $(TARGET_PREBUILT_KERNEL):kernel
-	endif
-
 # Properties
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 
